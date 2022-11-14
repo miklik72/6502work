@@ -6,12 +6,12 @@ def main():
   #initialize pygame module
   pygame.init()
   # load and set the logo
-  logo = pygame.image.load("venv/alien2.png")
+  logo = pygame.image.load("resources/alien2.png")
   pygame.display.set_icon(logo)
-  pygame.display.set_caption("minimal program")
+  pygame.display.set_caption("6502")
 
-  #create a surface on screen that has the size of 240 x 180
-  screen = pygame.display.set_mode((480,360))
+  #create a surface on screen that has the size of 800 x 600
+  screen = pygame.display.set_mode((800,600))
 
   # define a variable to control the main loop
   running = True
